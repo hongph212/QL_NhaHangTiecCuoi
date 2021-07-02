@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-ID">
+  <Title Text="Dashboard" />
+  <DataConnections>
+    <OlapDataConnection Name="BESNHI\MSSQLSERVER1_KHODL_NHTCConnection" ConnectionString="provider=msolap;data source=BESNHI\MSSQLSERVER1;initial catalog=KHODL_NHTC;timeout=1200;Cube Name=KHODL_NHTC;" />
+  </DataConnections>
+  <DataSources>
+    <DataSource ComponentName="dataSource1" Name="Data Source 1">
+      <OlapDataProvider DataConnection="BESNHI\MSSQLSERVER1_KHODL_NHTCConnection" />
+    </DataSource>
+  </DataSources>
+  <Items>
+    <Chart ComponentName="chartDashboardItem1" Name="Chart 1" DataSource="dataSource1" FilterString="[DataItem1] In ('[DIM NGAYTOCHUC].[YEAR].&amp;[2020]')">
+      <DataItems>
+        <Measure DataMember="[Measures].[DOANHTHU]" UniqueName="DataItem0" />
+        <Dimension DataMember="[DIM NGAYTOCHUC].[YEAR].[YEAR]" UniqueName="DataItem1" />
+        <Dimension DataMember="[DIM KHUVUC].[TENKV].[TENKV]" UniqueName="DataItem2" />
+      </DataItems>
+      <Arguments>
+        <Argument UniqueName="DataItem1" />
+        <Argument UniqueName="DataItem2" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <Series>
+            <Simple>
+              <Value UniqueName="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+    </Chart>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="chartDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

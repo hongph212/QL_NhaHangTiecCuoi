@@ -1,0 +1,614 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="cfa3963d-bbc7-4ca9-a802-844c32a074f7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>KHODL_NHTC</ID>
+  <Name>KHODL_NHTC</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-5530" scrolltop="-11" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="98" x="24977" y="16214" backcolor="16185078" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIM_NGAYTOCHUC" left="10887" top="9775" logicalid="16" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b000003090000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_NGAYTOCHUC" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIM_COMBO" left="5487" top="9775" logicalid="17" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_COMBO" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIM_SANHTIEC" left="20" top="4708" logicalid="18" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_SANHTIEC" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIM_KHUVUC" left="5486" top="0" logicalid="19" controlid="4" masterid="0" hint1="0" hint2="0" width="3000" height="1588" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b000034060000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_KHUVUC" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="FACT_DOANHTHU" left="5420" top="3988" logicalid="20" controlid="5" masterid="0" hint1="0" hint2="0" width="3133" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000800003d0c00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_FACT_DOANHTHU" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIM_NHANVIEN" left="10953" top="3988" logicalid="21" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="3387" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b00003b0d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_NHANVIEN" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIM_CHITIETCOMBO" left="87" top="9775" logicalid="22" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_CHITIETCOMBO" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.3" tooltip="DIM_MONAN" left="87" top="14122" logicalid="23" controlid="8" masterid="0" hint1="0" hint2="0" width="3000" height="1947" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="00080000b80b00009b070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DIM_MONAN" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="7236" top="7075" logicalid="24" controlid="9" masterid="0" hint1="0" hint2="0" width="5551" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_NGAYTOCHUC]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="5" sourceattachpoint="4" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="12387" y="9775" />
+              <point x="12387" y="8575" />
+              <point x="7536" y="8575" />
+              <point x="7536" y="7375" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="5586" top="7075" logicalid="25" controlid="10" masterid="0" hint1="0" hint2="0" width="1801" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_MACB]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="5" sourceattachpoint="4" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6987" y="9775" />
+              <point x="6987" y="8575" />
+              <point x="5886" y="8575" />
+              <point x="5886" y="7375" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2787" top="10349" logicalid="26" controlid="11" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DIM_CHITIETCOMBO-DIM_COMBO]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="7" sourceattachpoint="12" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5487" y="10748" />
+              <point x="3087" y="10748" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="2720" top="5282" logicalid="27" controlid="12" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_MASANH]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="5" sourceattachpoint="13" destattachpoint="14" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3020" y="5681" />
+              <point x="5420" y="5681" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="6587" top="1089" logicalid="28" controlid="13" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_MAKV]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="5" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6986" y="1588" />
+              <point x="6986" y="3988" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="8253" top="5282" logicalid="29" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[FK_MANV]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="5" sourceattachpoint="14" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="10953" y="5681" />
+              <point x="8553" y="5681" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline" left="1188" top="11422" logicalid="30" controlid="15" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[DIM_CHITIETCOMBO-DIM_MONAN]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="7" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1587" y="14122" />
+              <point x="1587" y="11722" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-5530</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-11</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>98</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="ce7845b6-7cdf-42cf-9172-45a653a199c1">
+      <ID>DIM COMBO</ID>
+      <Name>DIM COMBO</Name>
+      <DimensionID>DIM COMBO</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="9131f3a9-54ff-4bbe-8ffb-cce9632a503f">
+          <AttributeID>MACOMBO</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="db580486-0706-4e5a-b0dc-1bc7bbdc3924">
+          <AttributeID>GIA</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="6932a927-3e9a-4894-9031-e222e105c914">
+      <ID>DIM MONAN</ID>
+      <Name>DIM MONAN</Name>
+      <DimensionID>DIM MONAN</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="062c24bd-dd49-48be-82a5-1ec02732855b">
+          <AttributeID>MAMON</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="42eb47d9-2880-477a-8bc2-ea416568ddfb">
+          <AttributeID>TENMON</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="8e584053-1001-40d3-8f92-b00563636875">
+          <AttributeID>DONGIA</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="cc7bf360-6b1a-4c8f-a6cf-e3a2883101a9">
+      <ID>DIM NHANVIEN</ID>
+      <Name>DIM NHANVIEN</Name>
+      <DimensionID>DIM NHANVIEN</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="1ae72567-85b4-4b95-b0d9-1eed38ff9828">
+          <AttributeID>MANV</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="70382805-88b6-4682-809c-90f385302928">
+          <AttributeID>TENNV</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="2dd7e96c-b013-487f-b4d0-93112c1abad8">
+          <AttributeID>NGAYSINH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="f25cffee-aee9-4929-aceb-e4645076433d">
+          <AttributeID>NGAYVL</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b4ec7932-5dec-4050-81ed-02421510996c">
+      <ID>DIM SANHTIEC</ID>
+      <Name>DIM SANHTIEC</Name>
+      <DimensionID>DIM SANHTIEC</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="80ba49ca-f45e-400c-b9a2-2eefb012e845">
+          <AttributeID>MASANH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="a041e64b-5cce-4389-b7f1-d6acc10b5593">
+          <AttributeID>SUCCHUA</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="d58b3692-b6ed-45b8-ae0c-fcdded5077e9">
+      <ID>DIM KHUVUC</ID>
+      <Name>DIM KHUVUC</Name>
+      <DimensionID>DIM KHUVUC</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="d71b1de5-bc83-410c-ad17-0f791df73b2b">
+          <AttributeID>MAKV</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c8ac53df-9d50-40ee-9bd3-dd81db796b73">
+          <AttributeID>TENKV</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e15e7974-6861-4a17-9d7d-580e3247123b">
+      <ID>DIM NGAYTOCHUC</ID>
+      <Name>DIM NGAYTOCHUC</Name>
+      <DimensionID>DIM NGAYTOCHUC</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="e9466570-9430-4d90-a07d-66e22b2294ab">
+          <AttributeID>ID DATE</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="07cedfd8-a9f4-475d-a7b0-07e4f6d33747">
+          <AttributeID>DAY</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="892f8c60-ed16-406a-9244-4260a5f72419">
+          <AttributeID>MONTH</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="c20cddd8-d58b-4cd5-9044-792af82292f0">
+          <AttributeID>YEAR</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="9d67b106-ca9e-4352-a6f8-b22a297a3fa0">
+      <ID>DIM CHITIETCOMBO</ID>
+      <Name>DIM CHITIETCOMBO</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="6bba0cf4-cb5a-419e-a40a-0a41f06f4f0f">
+          <ID>SL</ID>
+          <Name>SL</Name>
+          <Source dwd:design-time-name="6a2d8110-15f7-4214-b562-3c4e6d615dcf">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="87605ac7-7b60-43e2-ac17-0324bb8f42c7">
+              <TableID>dbo_DIM_CHITIETCOMBO</TableID>
+              <ColumnID>SL</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ce616a1c-12f4-404d-9ae4-f555cc0f999c">
+          <ID>DIM CHITIETCOMBO Count</ID>
+          <Name>DIM CHITIETCOMBO Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="511dbb0b-a5e2-469f-8bb7-b6d82dda3036">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="77e7320d-7079-403a-89b2-13a6e161872d">
+              <TableID>dbo_DIM_CHITIETCOMBO</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4de59b78-d66e-47f8-90e4-07ff2a24aee8">
+          <CubeDimensionID>DIM COMBO</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="13f3cd12-2ee0-40e1-83e1-e48f3ae11619">
+              <AttributeID>MACOMBO</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="02b6d7ac-a269-4a4b-945a-164c4b00b162">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="74270e12-74c1-4e39-b29a-dd8cc4630037">
+                    <TableID>dbo_DIM_CHITIETCOMBO</TableID>
+                    <ColumnID>MACOMBO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="963e78c5-df74-4374-b328-04b007117b87">
+          <CubeDimensionID>DIM MONAN</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="8b1fe3a2-02ea-4738-9b72-e39ea280ceb4">
+              <AttributeID>MAMON</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bbc212ab-9964-4184-86e7-642d0372b4fb">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="fd45c716-b97c-4b5e-9399-21359553ce8e">
+                    <TableID>dbo_DIM_CHITIETCOMBO</TableID>
+                    <ColumnID>MAMON</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="192d18aa-cd89-4b48-b982-f2d9947686e8">
+      <ID>FACT DOANHTHU</ID>
+      <Name>FACT DOANHTHU</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="db0cac91-860a-4b3e-8cd0-bfd603206017">
+          <ID>DOANHTHU</ID>
+          <Name>DOANHTHU</Name>
+          <Source dwd:design-time-name="c37ebd12-2132-44c6-9df7-3658c653f5d2">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9045df46-3ac9-471b-b5e0-e247acf3055f">
+              <TableID>dbo_FACT_DOANHTHU</TableID>
+              <ColumnID>DOANHTHU</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="723eb19f-6ac0-4bfc-ace2-508034dd4220">
+          <ID>SOLUONG</ID>
+          <Name>SOLUONG</Name>
+          <Source dwd:design-time-name="9fd0b94d-2705-4150-8def-2531459ed150">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="329763f0-7c54-47ed-8009-99b85f16ce4b">
+              <TableID>dbo_FACT_DOANHTHU</TableID>
+              <ColumnID>SOLUONG</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d4e81039-5cb4-45ea-a086-61c31e958013">
+          <ID>FACT DOANHTHU Count</ID>
+          <Name>FACT DOANHTHU Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="6c6d6468-21d6-43ab-bfae-0703ed245877">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="2b13887c-fdd1-4b78-b255-53ddb25f67ef">
+              <TableID>dbo_FACT_DOANHTHU</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="40fb81c7-73ca-4cf3-81a7-2ade0e105ab4">
+          <ID>Maximum DOANHTHU</ID>
+          <Name>Maximum DOANHTHU</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="ec6ff8b9-7f95-42c4-b8eb-14c64b72185e">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f8675388-8e5d-4f23-82a8-202788b19601">
+              <TableID>dbo_FACT_DOANHTHU</TableID>
+              <ColumnID>DOANHTHU</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="56e60a54-9abd-420b-ad7a-7818755f1c6d">
+          <CubeDimensionID>DIM NHANVIEN</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="505a5e6a-056f-4f2f-9d94-c20923a0b153">
+              <AttributeID>MANV</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="37afbd70-f69a-4a64-8e81-64e95f3532c9">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="a534cf08-e068-4785-a43a-0be8a6950cca">
+                    <TableID>dbo_FACT_DOANHTHU</TableID>
+                    <ColumnID>MANV</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b48685a1-15e0-44a3-b591-ba5e1cbfb821">
+          <CubeDimensionID>DIM COMBO</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="c8661092-f3e4-4bb7-af6f-85a13f53cdd6">
+              <AttributeID>MACOMBO</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="af8353ac-22b0-4a0a-8b12-0311d75e197b">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bb169505-ba0f-4ee6-bcad-54094e5a0c89">
+                    <TableID>dbo_FACT_DOANHTHU</TableID>
+                    <ColumnID>MACOMBO</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="f03d645f-ef30-45a8-8749-6954d1cdd28b">
+          <CubeDimensionID>DIM NGAYTOCHUC</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="35e4d2a8-7ee1-4d6e-9787-2940023969bf">
+              <AttributeID>ID DATE</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d9986f85-65ca-4bfb-99e3-c712b54a8d89">
+                  <DataType>Date</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d54e5d24-cdd9-41ec-8c80-6261bfcb3c8c">
+                    <TableID>dbo_FACT_DOANHTHU</TableID>
+                    <ColumnID>NGAYTOCHUC</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="a1c0b372-fb89-40c7-b369-32d6e8effa0c">
+          <CubeDimensionID>DIM SANHTIEC</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ef740503-db39-4361-89ea-66154efa921f">
+              <AttributeID>MASANH</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d9139427-3b8d-402f-931d-6cd8a0257ce5">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="8e425887-d48a-4c33-9c7e-6c2574a47ccc">
+                    <TableID>dbo_FACT_DOANHTHU</TableID>
+                    <ColumnID>MASANH</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="52a83a89-49f1-42db-8433-a1dd2eea548a">
+          <CubeDimensionID>DIM KHUVUC</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="643707ae-8d73-4202-be13-fd51952d327f">
+              <AttributeID>MAKV</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="09a7850f-ddf1-4cca-8433-6cdf2dfde580">
+                  <DataType>WChar</DataType>
+                  <DataSize>10</DataSize>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e987e2f3-a6c6-4885-967c-4ed8c823a01a">
+                    <TableID>dbo_FACT_DOANHTHU</TableID>
+                    <ColumnID>MAKV</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="9f4c8293-eb57-405e-9963-c327d9a6217b">
+    <DataSourceViewID>KHODL_NHTC</DataSourceViewID>
+  </Source>
+</Cube>

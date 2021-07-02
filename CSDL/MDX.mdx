@@ -1,0 +1,52 @@
+﻿//Thống kê doanh thu của các khu vực qua từng năm
+select [Measures].[DOANHTHU] on columns,
+([DIM NGAYTOCHUC].[YEAR].[YEAR],[DIM KHUVUC].[TENKV].[TENKV]) on rows
+from KHODL_NHTC;
+
+//Thống kê số lượng khách chọn số bàn tại các khu vực qua từng năm
+select [Measures].[DOANHTHU] on columns,
+([DIM NGAYTOCHUC].[YEAR].[2021],[DIM KHUVUC].[TENKV].[ĐÀ NẴNG]:[DIM KHUVUC].[TENKV].[TP. HCM],
+ [DIM SANHTIEC].[SUCCHUA].[SUCCHUA]) on rows
+from KHODL_NHTC;
+
+//Số lượng khách đặt tiệc trong tháng
+SELECT [Measures].[FACT DOANHTHU Count] ON COLUMNS,
+[DIM NGAYTOCHUC].[MONTH].[MONTH] ON ROWS
+from KHODL_NHTC;
+
+//Thống kê doanh thu nhân viên trong năm 2021 ở khu vực TP.HCM và ĐÀ NẴNG
+select [Measures].[DOANHTHU] on columns,
+([DIM KHUVUC].[TENKV].[ĐÀ NẴNG]:[DIM KHUVUC].[TENKV].[TP. HCM],
+ [DIM NGAYTOCHUC].[MONTH].[MONTH]) on rows
+from KHODL_NHTC;
+
+//Hiển thị tháng có doanh thu cao nhất trong năm
+Select [Measures].[Maximum DOANHTHU] on columns,
+topcount([DIM NGAYTOCHUC].[MONTH].[MONTH],1,[Measures].[Maximum DOANHTHU]) on rows 
+from khodl_nhtc;
+
+//Hiển chị số lượng khách đặt tiệc trong năm qua
+Select [Measures].[FACT DOANHTHU Count] on columns,	
+ ([DIM KHUVUC].[TENKV].[ĐÀ NẴNG]:[DIM KHUVUC].[TENKV].[TP. HCM], 
+ [DIM NGAYTOCHUC].[YEAR].[2021]) on rows 
+from khodl_nhtc;
+
+//Thống kê doanh thu tháng trên 500000000
+select filter([DIM NGAYTOCHUC].[MONTH].[MONTH], [Measures].[DOANHTHU]>500000000) on columns,
+ [Measures].[DOANHTHU] on rows
+from KHODL_NHTC;
+
+//Số lượng món bán được
+Select [Measures].[SL] on columns,	
+ [DIM MONAN].[TENMON].[TENMON] on rows 
+from khodl_nhtc;
+
+//Số lượng đơn đặt tiệc của nhân viên
+Select [Measures].[FACT DOANHTHU Count] on columns,	
+ [DIM NHANVIEN].[TENNV].[TENNV] on rows 
+from khodl_nhtc;
+
+//Số lượng món được đặt theo từng khu vực
+Select ([DIM KHUVUC].[TENKV].[TENKV], [DIM MONAN].[TENMON].[TENMON]) on rows,	
+ [Measures].[SL] on columns 
+from khodl_nhtc;

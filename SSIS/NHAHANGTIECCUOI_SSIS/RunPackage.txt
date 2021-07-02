@@ -1,0 +1,1 @@
+"C:\Program Files\Microsoft SQL Server\110\DTS\Binn\DTExec.exe" /File "C:\Users\Admin\Documents\Zalo Received Files\Kho dữ liệu OLAP\NHOM13_NHAHANGTIECCUOI_NguyenHongPhuc_2001181265\SSIS\NHAHANGTIECCUOI_SSIS\Package.dtsx"

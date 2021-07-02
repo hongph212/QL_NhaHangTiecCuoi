@@ -1,0 +1,41 @@
+<AnalysisServicesUserConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Configurations>
+    <Configuration>
+      <Name>Development</Name>
+      <Options>
+        <UserIDs>
+          <ConfigurationSetting>
+            <Id>KHODL_NHTC</Id>
+            <Name>KHODL_NHTC</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkl06TWOV0k6KHFspP7ofswAAAAAWAAAASwBIAE8ARABMAF8ATgBIAFQAQwAAABBmAAAAAQAAIAAAAIe0FCyyRE69G7+E+oYjHPvoyPxrUY9FIVEJneOVqW9oAAAAAA6AAAAAAgAAIAAAAO//tubYSXzeB5KC8b5MsWxE83/tW3h5EKUTUCo7AE8aEAAAAGNiAvkNoW7BWQDCXvk5Eq1AAAAAqB++y6XtEo23yWADHDeQZw/zp6qdPrNREohB8kypt1I1XsORE94EbRL5ojuuJtK+9gBpjiVFMg+AimBDoL98MQ==</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>KHODL NHTC</Id>
+            <Name>KHODL NHTC</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkl06TWOV0k6KHFspP7ofswAAAAAWAAAASwBIAE8ARABMACAATgBIAFQAQwAAABBmAAAAAQAAIAAAAD7ivMMWec/GhunlbKWGICgc9JgU8j06vNzKJzyXExhiAAAAAA6AAAAAAgAAIAAAALq51a4AxDg+YCLgxRhrdmKEyepRcwedxdBwQmQFkhPHEAAAAJN13kWavmXBitABU7SIinNAAAAAwgqOtdw43SqmvfV89VZQ2flNPnWW4Eo7/iOFYHrP38DrGzoWyz657rdWEMthNuFHPRqYccRD6FBKrOo4H3beGg==</Value>
+          </ConfigurationSetting>
+        </UserIDs>
+        <UserPasswords>
+          <ConfigurationSetting>
+            <Id>KHODL_NHTC</Id>
+            <Name>KHODL_NHTC</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkl06TWOV0k6KHFspP7ofswAAAAAWAAAASwBIAE8ARABMAF8ATgBIAFQAQwAAABBmAAAAAQAAIAAAAEbifuiMM5Nu+rsWvD3lsdBWXfkEAj8ivpT9bn/e3mkaAAAAAA6AAAAAAgAAIAAAAHf2XAM9rbo33J9ILfDnZv80ieJ6kyBaeQIFUll9ldfDEAAAAG8z3aGUjFOMsWvY6OVZnxZAAAAA0qeovZ0mJcS/sE29tWHvrgFSQdg/+5G6ezid9WzfHEvi06+ztcSkTMHWXEahxeYD3u7OKcexRUlOkdano9TnWQ==</Value>
+          </ConfigurationSetting>
+          <ConfigurationSetting>
+            <Id>KHODL NHTC</Id>
+            <Name>KHODL NHTC</Name>
+            <Value xsi:type="xsd:string">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAkl06TWOV0k6KHFspP7ofswAAAAAWAAAASwBIAE8ARABMACAATgBIAFQAQwAAABBmAAAAAQAAIAAAAMb9o8uZccTdBIITupfvD+s6u0NxoqA7adY982Vjdd3ZAAAAAA6AAAAAAgAAIAAAANYBkX/7vO3MgNUHqCz3mn+pNunwAl/P5UmVg0b23YJHEAAAAPuJmsvk526xfji+Ekzed9RAAAAAlgYfZWjoZFcphNAZf65R+Lo97Rw6RMop9xv+13q1zVHlo/2obWu8bGWV7os3ZSWnZGAWB/rPVahuqTWim6WQOg==</Value>
+          </ConfigurationSetting>
+        </UserPasswords>
+        <TargetServer>BESNHI\MSSQLSERVER1</TargetServer>
+        <TargetDatabase>KHODL_NHTC</TargetDatabase>
+        <StartObject>
+          <ObjectId></ObjectId>
+          <ObjectType>Current</ObjectType>
+        </StartObject>
+        <ProcessingOption>Full</ProcessingOption>
+        <DeploymentMode>DeployAll</DeploymentMode>
+      </Options>
+    </Configuration>
+  </Configurations>
+</AnalysisServicesUserConfiguration>

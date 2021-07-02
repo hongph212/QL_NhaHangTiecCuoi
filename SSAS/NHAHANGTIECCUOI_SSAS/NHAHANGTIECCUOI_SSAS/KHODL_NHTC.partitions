@@ -1,0 +1,45 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b8baa6f3-c5a2-4068-94f3-9fd9018f3f72" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>KHODL_NHTC</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>DIM CHITIETCOMBO</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d5b69bda-a15b-4b22-baf5-9180d11ee1be">
+          <ID>DIM CHITIETCOMBO</ID>
+          <Name>DIM CHITIETCOMBO</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="dfc10e3d-2e1a-4316-922f-2ae72c3b45b1">
+            <DataSourceViewID>KHODL_NHTC</DataSourceViewID>
+            <TableID>dbo_DIM_CHITIETCOMBO</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>FACT DOANHTHU</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="8407bd45-8000-4526-afef-876e4e85ca2a">
+          <ID>FACT DOANHTHU</ID>
+          <Name>FACT DOANHTHU</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="1aa239b4-4818-4f6c-ae71-18de88285ae0">
+            <DataSourceViewID>KHODL_NHTC</DataSourceViewID>
+            <TableID>dbo_FACT_DOANHTHU</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

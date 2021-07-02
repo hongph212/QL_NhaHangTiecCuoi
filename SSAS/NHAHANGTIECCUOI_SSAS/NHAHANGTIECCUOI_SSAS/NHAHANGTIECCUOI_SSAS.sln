@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "NHAHANGTIECCUOI_SSAS", "NHAHANGTIECCUOI_SSAS.dwproj", "{A312A593-F419-434C-BF3B-40AFA44318A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A312A593-F419-434C-BF3B-40AFA44318A4}.Development|Default.ActiveCfg = Development
+		{A312A593-F419-434C-BF3B-40AFA44318A4}.Development|Default.Build.0 = Development
+		{A312A593-F419-434C-BF3B-40AFA44318A4}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
